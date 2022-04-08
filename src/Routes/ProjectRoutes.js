@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 
 import Home from "../Pages/Home/Home";
 import About from "../Pages/About/About";
@@ -8,14 +8,14 @@ import Projects from "../Pages/Project/Projects";
 
 const ProjectRoutes = () => {
    return(
-       <BrowserRouter >
+       <HashRouter basename="/">
             <Routes>
-                <Route component = { About }  path="batatadoce" />
-                <Route element = { <Contact /> } path="portifolio/#/contato" />
-                <Route element = { <Projects /> } path="portifolio/#/projetos" />
-                <Route element = { <Home /> } path="/portifolio" />
+                <Route component = { <About/> }  path="/sobre" />
+                <Route component = { <Contact /> }  path="/contato" />
+                <Route component = { <Projects /> }  path="/projetos" />
+                <Route component = { <Home /> }  path="/" />
             </Routes>
-       </BrowserRouter>
+       </HashRouter>
    )
 }
 
