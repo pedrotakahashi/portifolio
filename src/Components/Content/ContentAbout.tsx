@@ -22,7 +22,7 @@ const Content = () => {
                 Meu nome é Pedro Takahashi <br />
                 Sou desenvolvedor front end, com foco no uso em React. <br />
                 Fora daqui sou um aspirante a Bárbaro e Bardo <br />
-                Jogador assíduo de tibia, com um Elite Knight Lv 230 em Luminera
+                Jogador assíduo de tibia, com um Elite Knight Lv 240 em Luminera
               </Card.Text>
             </Card.Body>
           </Card>
@@ -33,7 +33,7 @@ const Content = () => {
             <Card.Body>
               <Card.Title>Maverick Destroyer</Card.Title>
               <Card.Text>
-                Elite Knight - 230<br />
+                Elite Knight - 242<br />
                 Luminera <br />
 
               </Card.Text>
